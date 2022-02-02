@@ -1,0 +1,23 @@
+{
+	"name": "imapdesk",
+	"version": "1.0.0",
+	"description": "Servidor Imap para o AgilusDesk",
+	"main": "index.js",
+	"scripts": {
+		"test": "",
+		"dev": "nodemon -w src --exec \" node src \"",
+		"build": "",
+		"start": "",
+		"service": "node src/service"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^8.6.0",
+		"express": "^4.17.1",
+		"imap": "^0.8.19",
+		"node-windows": "^1.0.0-beta.6",
+		"nodemon": "^2.0.14"
+	}
+}
