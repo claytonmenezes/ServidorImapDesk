@@ -1,8 +1,8 @@
 var Service = require('node-windows').Service
 
 var svc = new Service({
-	name:'ImapDesk',
-	description: 'Servidor Imap para o AgilusDesk',
+	name:'MoveEmailAgilusDesk',
+	description: 'Serviço para mover emails do AgilusDesk',
 	script: __dirname + '/index.js'
 })
 
